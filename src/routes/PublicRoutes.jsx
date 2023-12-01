@@ -14,7 +14,7 @@ const PublicRoute = ({ title }) => {
       </HelmetProvider>
     </Suspense>
   ) : (
-    <Navigate to="/dashboard" />
+    <Navigate to="/" />
   );
 };
 
